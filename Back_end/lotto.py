@@ -5,4 +5,4 @@ import random
 def lotto_number():
     l = range(1,46)
     lotto = sorted(random.sample(l,6))
-    print(lotto)
+    return(lotto)
